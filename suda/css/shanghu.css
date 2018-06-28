@@ -1,0 +1,156 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-09 23:10:56
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-10 14:35:39
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500019 */
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot');
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+
+header{
+	width: 100%;
+	height: 1.42rem;
+	background-image: -webkit-linear-gradient(top,#332C3B,#817888);
+}
+.head1{
+	width: 100%;
+	height: 0.35rem;
+	box-sizing: border-box;
+	padding: 0.08rem 0.1rem;
+}
+.icon1{
+	font-size: 0.2rem;
+	color: #fff;	
+}
+.icon2{
+	font-size: 0.2rem;
+	color: #fff;
+	float: right;	
+}
+.head2{
+	width: 100%;
+	height: 0.76rem;
+	padding: 0.1rem 0.15rem 0 0.15rem;
+	box-sizing: border-box;
+}
+.head2 img{
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.head2 h2{
+	color: #fff;
+	float: left;
+}
+.head2 p{
+	font-size: 0.1rem;
+	float: left;
+	color: #b0b0b0;
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+.head2 span{
+	font-size: 0.1rem;
+	color: #b0b0b0;
+	float: left;
+}
+.jian{
+	font-size: 0.12rem;
+	background: pink;
+	float: left;
+    color: #fff;
+    margin-right: 0.05rem;
+}
+.head3{
+	width: 100%;
+	height: 0.31rem;
+	padding: 0.05rem 0.15rem;
+	box-sizing: border-box;
+}
+.manjian{
+	font-size: 0.08rem;
+	float: left;
+	color: #fff;
+}
+.icon3{
+	font-size: 0.06rem;
+	color: #fff;
+	float: right;
+    line-height: 0.21rem;
+}
+.gdhd{
+	font-size: 0.06rem;
+	color: #e6e5e8;
+	float: right;
+	line-height: 0.21rem;
+}
+
+nav{
+	width: 100%;
+	height: 0.4rem;
+	border-bottom: 0.01rem solid #eee;
+}
+nav a{
+	display: block;
+	width: 1.25rem;
+	height: 0.4rem;
+	float: left;
+	background: #fff;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #333;
+}
+nav a:last-child{
+	color: #2395FF;
+}
+nav a:last-child::after{
+	content: '';
+	display: block;
+	width: 0.4rem;
+	height: 0.02rem;
+	background: #2395FF;
+	margin: 0 auto;
+}
+.psxx{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 0.15rem 0.15rem;
+}
+.psxx h3{
+	margin-bottom: 0.2rem;
+}
+.psxx span{
+	font-size: 0.16rem;
+	color: #999;
+}
+.te{
+	color: #fff;
+	padding: 0 0.02rem;
+	border-radius: 0.02rem;
+}
+.jie{
+	font-size: 0.12rem;
+	color: #999;
+
+}
+.psxx div{
+	margin-bottom: 0.05rem;
+}
+.psxx img{
+	width: 0.78rem;
+	height: 0.78rem;
+}

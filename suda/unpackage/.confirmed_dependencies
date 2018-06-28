@@ -1,0 +1,62 @@
+{
+  "demo.html": {
+    "resources": [
+      "img/tianqi.webp",
+      "css/base.css",
+      "img/wancan.webp",
+      "img/guoshu.webp",
+      "js/rem.js",
+      "img/tianpin.webp",
+      "img/bianli.webp",
+      "img/yaopin.webp",
+      "dindan.html",
+      "img/hongde.webp",
+      "img/shangjia1.webp",
+      "img/xindian.webp",
+      "img/dapai.webp",
+      "img/guodu.webp",
+      "css/demo.css",
+      "img/meishi.webp",
+      "geren.html"
+    ],
+    "refer": [
+      "dindan.html"
+    ]
+  },
+  "denglu.html": {
+    "resources": [
+      "css/denglu.css",
+      "dindan.html",
+      "geren.html",
+      "demo.html"
+    ],
+    "refer": []
+  },
+  "dindan.html": {
+    "resources": [
+      "img/shangjia2.webp",
+      "img/dingdan1.webp",
+      "css/dindan.css",
+      "geren.html",
+      "demo.html",
+      "css/base.css",
+      "js/rem.js"
+    ],
+    "refer": [
+      "geren.html"
+    ]
+  },
+  "geren.html": {
+    "resources": [
+      "denglu.html",
+      "css/geren.css",
+      "dindan.html",
+      "demo.html",
+      "css/base.css",
+      "js/rem.js"
+    ],
+    "refer": [
+      "denglu.html"
+    ]
+  }
+}

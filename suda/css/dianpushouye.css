@@ -1,0 +1,267 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-09 17:49:28
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-10 15:11:00
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500019 */
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot');
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+
+header{
+	width: 100%;
+	height: 1.42rem;
+	background-image: -webkit-linear-gradient(top,#332C3B,#817888);
+}
+.head1{
+	width: 100%;
+	height: 0.35rem;
+	box-sizing: border-box;
+	padding: 0.08rem 0.1rem;
+}
+.icon1{
+	font-size: 0.2rem;
+	color: #fff;	
+}
+.icon2{
+	font-size: 0.2rem;
+	color: #fff;
+	float: right;	
+}
+.head2{
+	width: 100%;
+	height: 0.76rem;
+	padding: 0.1rem 0.15rem 0 0.15rem;
+	box-sizing: border-box;
+}
+.head2 img{
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.head2 h2{
+	color: #fff;
+	float: left;
+}
+.head2 p{
+	font-size: 0.1rem;
+	float: left;
+	color: #b0b0b0;
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+.head2 span{
+	font-size: 0.1rem;
+	color: #b0b0b0;
+	float: left;
+}
+.jian{
+	font-size: 0.12rem;
+	background: pink;
+	float: left;
+    color: #fff;
+    margin-right: 0.05rem;
+}
+.head3{
+	width: 100%;
+	height: 0.31rem;
+	padding: 0.05rem 0.15rem;
+	box-sizing: border-box;
+}
+.manjian{
+	font-size: 0.08rem;
+	float: left;
+	color: #fff;
+}
+.icon3{
+	font-size: 0.06rem;
+	color: #fff;
+	float: right;
+    line-height: 0.21rem;
+}
+.gdhd{
+	font-size: 0.06rem;
+	color: #e6e5e8;
+	float: right;
+	line-height: 0.21rem;
+}
+nav{
+	width: 100%;
+	height: 0.4rem;
+	border-bottom: 0.01rem solid #eee;
+}
+nav a{
+	display: block;
+	width: 1.25rem;
+	height: 0.4rem;
+	float: left;
+	background: #fff;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #333;
+}
+nav a:first-child{
+	color: #2395FF;
+}
+nav a:first-child::after{
+	content: '';
+	display: block;
+	width: 0.4rem;
+	height: 0.02rem;
+	background: #2395FF;
+	margin: 0 auto;
+}
+.zong{
+	width: 100%;
+	overflow: hidden;
+}
+.fenlei{
+	width: 0.77rem;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.fenlei li{
+	padding:0.17rem 0.07rem;
+	width: 0.77rem;
+	height: auto;
+	box-sizing: border-box;
+    color: #666;
+    overflow: hidden;
+    font-size: 0.14rem;
+}
+.fenlei li img{
+	border-radius: 50%;
+	margin-right: 0.1rem;
+	transform: translateY(0.04rem);
+}
+.canpin{
+	width: 2.95rem;
+	height: auto;
+	overflow: hidden;float: left;
+	margin-bottom: 0.68rem;
+}
+.cps{
+	width: 2.95rem;
+	height: 0.4rem;
+	padding: 0.05rem 0.1rem 0.05rem 0;
+	box-sizing: border-box;
+
+}
+.cps strong{
+	font-size: 0.12rem;
+	margin-right: 0.05rem;
+}
+.cps span{
+	font-size: 0.1rem;
+	margin-right: 0.05rem;
+	color: #a0a0a0;
+}
+.canpin li{
+	padding: 0.1rem 0.1rem 0.1rem 0;
+	margin-left: 0.2rem;
+	width: 2.95rem;
+	height: auto;
+	box-sizing: border-box;
+}
+.canpin li img{
+	width: 0.76rem;
+	height: 0.76rem;
+}
+.canpin li section{
+	width: 1.9rem;
+	height: 0.83rem;
+	float: right;
+}
+.canpin li section p{
+    font-size: 0.12rem;
+    color: #b0b0b0;
+}
+.canpin li section div{
+	width: 1.9rem;
+	height: 0.2rem;
+	margin-top: 0.2rem;
+}
+.canpin li section div i{
+	float: left;
+	color: #ff6600;
+	font-size: 0.18rem;
+}
+.canpin li section div a{
+	float: right;
+	font-size: 0.2rem;
+	color: #2395ff;
+	margin-right: 0.2rem;
+}
+footer{
+	width: 100%;
+	height: 0.68rem;
+	box-sizing: border-box;
+	border-top: 0.2rem solid #fffad8;
+	background: #505052;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.yuan{
+	width: 0.52rem;
+	height: 0.52rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0.12rem;
+	bottom: 0.3rem;
+	background: #363636;
+	border: 0.05rem solid #444;
+	box-sizing: border-box;
+	padding: 0.1rem;
+	color: #fff;
+	font-size: 0.2rem;
+}
+.yuana{
+	width: 0.8rem;
+	height: 0.68rem;
+	position: relative;
+	float: left;
+}
+.gwcjg{
+	width: 0.8rem;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0.05rem 0;
+	float: left;
+}
+.gwcjg strong{
+	font-size: 0.16rem;
+	color: #fff;
+}
+.gwcjg p{
+	color: #b0b0b0;
+	font-size: 0.12rem;
+}
+footer span{
+	font-size: 0.16rem;
+	color: #fff;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 0.48rem;
+}
+.manjian2{
+	font-size: 0.12rem;
+	color: #333;
+	position: absolute;
+	top: -0.2rem;
+	left: 1.5rem;
+}

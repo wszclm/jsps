@@ -1,0 +1,236 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-07 16:38:04
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-14 16:11:44
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500019 */
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot');
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+
+body{
+	background: #f5f5f5;
+}
+header{
+	width: 100%;
+	height: 1.54rem;
+	background-image: -webkit-linear-gradient(left,#00aaff,#0085ff);
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.headt{
+	width: 100%;
+	height: 0.44rem;
+	position: relative;
+    overflow: hidden;
+}
+.headt h1{
+	position: absolute;
+	top: 0.1rem;
+	left: 46%;
+	color: #fff;
+	font-size: 0.2rem;
+	
+}
+.headt a{
+	margin-left: 0.1rem;
+	display: block;
+	float: left;
+	margin-top: 0.14rem;
+	color: #fff;
+}
+.headb{
+	width: 100%;
+	height: 1.1rem;
+	padding: 0.25rem 0.15rem;
+	box-sizing: border-box;
+}
+.headb a{
+	display: block;
+	width: 3.45rem;
+	height: 0.6rem;
+}
+.icon2{
+	font-size: 0.58rem;
+	color: #dcdcdc;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+}
+.headb2{
+	width: 2rem;
+	height: 0.6rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.yonghum{
+	height: 0.4rem;
+	font-size: 0.22rem;
+	color: #fff;
+}
+.shouji{
+	height: 0.2rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+.genduo{
+	font-size: 0.12rem;
+	float: right;
+	line-height: 0.6rem;
+	color: #fff;
+	overflow: hidden;
+}
+.youhui{
+	width: 100%;
+	height: 0.8rem;
+	border-bottom: 0.01rem solid #dcdcdc;
+	box-sizing: border-box;
+	background: #fff;
+}
+.yh1{
+	width: 50%;
+	height: 0.8rem;
+	border-right: 0.01rem solid #dcdcdc;
+	display: block;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	float: left;
+	box-sizing: border-box;
+}
+.yh{
+	width: 50%;
+	height: 0.8rem;
+	display: block;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	float: left;
+	box-sizing: border-box;
+}
+.yh11 p{
+	color: #ff5f3e;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.yh11 p::first-letter{
+	font-size: 0.3rem;
+}
+.yh12 p{
+    color: #6ac20b;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.yh12 p::first-letter{
+	font-size: 0.3rem;
+}
+.yh2{
+	color: #333;
+	text-align: center;
+}
+.dizhi{
+	width: 100%;
+	height: 0.44rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	border: 0 0.01rem solid #f0f0f0;
+	display: block;
+}
+.icon5{
+	font-size: 0.24rem;
+	color: skyblue;
+	margin-left: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.1rem;
+}
+.zhongzi{
+	font-size: 0.16rem;
+	color: #000;
+	margin-left: 0.1rem;
+	float: left;
+	margin-top: 0.12rem;
+}
+.icon{
+	font-size: 0.16rem;
+	color: #b0b0b0;
+	display: block;
+	float: right;
+	margin-top: 0.16rem;
+	margin-right: 0.2rem;
+}
+.icon6{
+	font-size: 0.24rem;
+	color: #94d94a;
+	margin-left: 0.16rem;
+	display: block;
+	float: left;
+	margin-top: 0.1rem;
+}
+.dizhi1{
+	width: 100%;
+	height: 0.44rem;
+	background: #fff;
+	border: 0 0.01rem solid #b0b0b0;
+	display: block;
+}
+.icon7{
+	font-size: 0.24rem;
+	color: #fc7b53;
+	margin-left: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.1rem;
+}
+footer{
+	width: 100%;
+	height: 0.6rem;
+	border-bottom: 0.01rem solid #d0d0d0;
+	position: fixed;
+	border-top: 0.01rem solid #d0d0d0;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	box-sizing: border-box;
+	z-index: 999;
+}
+footer ul{
+	width: 100%;
+	height: 0.5rem;
+
+}
+footer ul li{
+	width: 25%;
+	height: 0.5rem;
+	float: left;
+}
+footer ul li div{
+	font-size: 0.12rem;
+	color: #747474;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.icon4{
+	font-size: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+}
+footer ul a:last-child li .icon4{
+	color: #139eff;
+}
+footer ul a:last-child li div{
+	color: #139eff;
+}

@@ -1,0 +1,170 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-07 16:39:00
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-09 20:13:39
+*/
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 500019 */
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot');
+  src: url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_500019_pd82kcswcwpzaor.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+
+body{
+	background: #f5f5f5;
+}
+
+header{
+	width: 100%;
+	height: 0.44rem;
+	background-image: -webkit-linear-gradient(left,#00aaff,#0085ff);
+	position: relative;
+}
+header a{
+	margin-left: 0.1rem;
+	display: block;
+	float: left;
+	margin-top: 0.14rem;
+	color: #fff;
+}
+header b{
+	position: absolute;
+	top: 0.1rem;
+	left: 46%;
+	color: #fff;
+	font-size: 0.2rem;
+	
+}
+
+footer{
+	width: 100%;
+	height: 0.6rem;
+	border-bottom: 0.01rem solid #d0d0d0;
+	position: fixed;
+	border-top: 0.01rem solid #d0d0d0;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	box-sizing: border-box;
+	z-index: 999;
+}
+footer ul{
+	width: 100%;
+	height: 0.5rem;
+
+}
+footer ul li{
+	width: 25%;
+	height: 0.5rem;
+	float: left;
+}
+footer ul li div{
+	font-size: 0.12rem;
+	color: #747474;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.icon4{
+	font-size: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+}
+footer ul a:nth-child(3) li .icon4{
+	color: #139eff;
+}
+footer ul a:nth-child(3) li div{
+	color: #139eff;
+}
+.waimai1{
+	display: block;
+	width: 100%;
+	height: 1.56rem;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-top: 0.2rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.waimai1:last-of-type{
+	margin-bottom: 0.8rem;
+}
+.shangbiao1{
+	width: 0.42rem;
+	height: 0.95rem;
+	float: left;
+	background: #fff;
+	box-sizing: border-box;
+	padding-right: 0.1rem;
+	border-bottom: 0.01rem solid #f7f7f7;
+}
+.sb{
+	width: 0.32rem;
+	height: 0.32rem;
+}
+.sb img{
+	width: 0.32rem;
+	height: 0.32rem;
+}
+.dianming{
+	width: 3.12rem;
+	height: 0.95rem;
+	box-sizing: border-box;
+	padding-right: 0.2rem;
+	padding-bottom: 0.1rem;
+	float: right;
+	border-bottom: 0.01rem solid #f7f7f7;
+}
+.icon1{
+	font-size: 0.12rem;
+}
+.dianming span:first-child{
+    color: #333;
+}
+.dianming span:last-of-type{
+	float: right;
+	font-size: 0.14rem;
+	color: #333;
+
+}
+.dianming div{
+	font-size: 0.08rem;
+	color: #666666;
+}
+.shangpin{
+	width: 2.92rem;
+	height: 0.58rem;
+	box-sizing: border-box;
+	padding: 0.16rem 0;
+}
+.sp1{
+	font-size: 0.14rem;
+	float: left;
+	color: #666;
+}
+.sp2{
+	font-size: 0.1rem;
+	color: #333;
+	float: right;
+}
+.pingjia{
+	width: 1rem;
+	height: 0.28rem;
+	float: right;
+	margin-right: 0.2rem;
+	border: 0.01rem solid red;
+	border-radius: 0.04rem;
+	font-size: 0.12rem;
+	color: red;
+	text-align: center;
+	line-height: 0.28rem;
+	margin-top: 0.04rem;
+}

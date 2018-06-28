@@ -1,0 +1,402 @@
+@import url('base.css');
+
+.head{
+    width: 100%;
+    height: 131px;
+}
+.h_t{
+    width: 100%;
+    height: 26px;
+    background: #f5f5f5;
+}
+.h_top{
+    width: 980px;
+    height: 26px;
+    margin: 0 auto;
+}
+.h_top1{
+    height: 26px;
+    width: auto;
+    float: right;
+}
+.h_top1 p{
+    line-height: 26px;
+    float: left;
+}
+.h_top1 p a{
+    font-size: 12px;
+    color: #333;
+    margin-right:18px;
+}
+.h_top1 p a.active{
+    color: red;
+}
+.h_top1 p a:hover{
+    color: #009CE0;
+}
+.h_top1 span{
+    line-height: 26px;
+    float: left;
+}
+.h_top1 span a{
+    padding-right: 36px;
+    font-size: 12px;
+    color: #333;
+    background: url("../img/xia.gif") no-repeat right center;
+}
+.h_top1 span a:hover{
+    color: #009CE0;
+}
+.h_m{
+    width: 100%;
+    height: 66px;
+    background: #fff;
+}
+.h_mid{
+    width: 980px;
+    height: 66px;
+    margin: 0 auto;
+}
+.h_midl{
+    width: auto;
+    height: 66px;
+    float: left;
+}
+.h_midl a{
+    display: block;
+    width: auto;height: 66px;
+    box-sizing: border-box;
+    padding-top: 17px;
+    margin-left: 10px;
+}
+.h_midl a img{
+    width: 188px;
+    height: 37px;
+}
+.h_midr{
+    float: right;
+}
+.h_midr1{
+    padding-right: 24px;
+    margin-top: 15px;
+    float: left;
+}
+.h_midr1 p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+.h_midr1 span{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.h_midr2{
+    border-right: 1px solid #999;
+    float: left;
+    padding: 2px 28px;
+    margin-top: 15px;
+    border-left: 1px solid #999;
+}
+.h_midr2 a{
+    display: block;
+    width: 106px;
+    height: 31px;
+    background: url(../img/online.gif) no-repeat 0 0;
+}
+.h_midr3{
+    float: left;
+    padding: 2px 28px;
+    margin-top: 15px;
+}
+.h_midr3 a{
+    background: url(../img/freefone.jpg) no-repeat 0 0;
+    display: block;
+    width: 106px;
+    height: 31px;
+}
+.h_midr4{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.h_midr4 img{
+    width: 30px;
+    height: 30px;
+}
+.h_b{
+    width: 100%;
+    height: 39px;
+    background: #f5f5f5;
+}
+.h_bot{
+    width: 980px;
+    height: 39px;
+    margin: 0 auto;
+}
+.h_bot li{
+    float: left;
+    width: 163px;
+    position: relative;
+    height: 39px;
+    z-index: 1000;
+    box-sizing: border-box;
+    border-top: 4px solid #f5f5f5;
+}
+.h_bot li:hover{
+    border-top: 4px solid #009CE0;
+    background: #fff;
+}
+.h_bot li a {
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    color: #000;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    height: 429px;
+    background: #666464;
+}
+.foot1{
+    width: 980px;
+    height: 268px;
+    margin: 0 auto;
+}
+.foot1 h2{
+    font-size: 20px;
+    color: #00aeef;
+    line-height: 50px;
+}
+.foot1 dl{
+    float: left;
+    width: 93px;
+}
+.foot1 dl dt{
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.foot1 dl dt a{
+    color: #fff;
+    font-size: 14px;
+}
+.foot1 dl dd a{
+    color: #ccc;
+    line-height: 20px;
+    font-size: 12px;
+}
+.foot2{
+    width: 980px;
+    margin: 32px auto;
+    zoom: 1;
+    height: 67px;
+}
+.foot2l{
+    float: left;
+    color: #fff;
+}
+.foot2l p{
+    line-height: 40px;
+}
+.foot2l p a{
+    color: #fff;
+    font-size: 12px;
+}
+.foot2l p span{
+    padding: 10px;
+}
+.foot2r{
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+.foot2r span{
+    color: #f5f5f5;
+    float: left;
+    margin-right: 20px;
+}
+.foot2r1{
+    float: left;
+}
+.company{
+    position: relative;
+    width: 217px;
+    line-height: 27px;
+}
+.company h4{
+    height: 27px;
+    padding-left: 10px;
+    font-weight: normal;
+    background: #82878f url(../img/comicon.gif) no-repeat right 1px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.foot3{
+    width: 100%;
+    height: 30px;
+}
+.foot3 p{
+    width: 980px;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #959595;
+    font-size: 12px;
+}
+.foot3 p a{
+    color: #464646;
+    font-size: 12px;
+}
+
+.main{
+    width: 100%;
+    background: #f5f5f5 url(../img/index4img/service_bg.jpg) no-repeat center top;
+    padding: 115px 0 40px;
+    box-sizing: border-box;
+}
+.main1{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 60px;
+}
+.main::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main1_t{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+.main1_t p{
+    line-height: 44px;
+    float: right;
+    color: #939191;
+    width: auto;
+    font-size: 12px;
+}
+.main1_t p span{
+    font-size: 12px;
+}
+.main1_t p a {
+    color: #939191;
+    font-size: 12px;
+}
+.main1_b{
+    width: 924px;
+    margin: 0 auto;
+}
+.banner{
+    width: 924px;
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner ul li a{
+    color: #464646;
+    display: block;
+    width: auto;
+    height: auto;
+}
+.banner ul li a img{
+    width: 924px;
+    height: 410px;
+}
+.chazhao{
+    width: 874px;
+    height: 135px;
+    background: #f5f5f5;
+    padding-left: 50px;
+}
+.chazhao h2{
+    font-size: 24px;
+    font-weight: normal;
+    color: #049ee1;
+    line-height: 76px;
+}
+form{
+    float: left;
+    color: #636363;
+    margin-right: 80px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+form span{
+    float: left;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.ss{
+    float: left;
+    background: url(../img/index4img/sousuo.png) no-repeat;
+    width: 188px;
+    height: 30px;
+}
+.branch_submit{
+    cursor: pointer;
+    width: 33px;
+    height: 30px;
+    float: left;
+    background: url(../img/index4img/sousuo.png) no-repeat -188px 0;
+}
+.main3{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.main3 ul{
+    width: 951px;
+}
+.main3 ul::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.main3 ul li{
+    float: left;
+    width: 290px;
+    margin-right: 27px;
+}
+.main3 ul li h2{
+    font-weight: normal;
+    line-height: 60px;
+}
+.main3 ul li h2 a{
+    color: #009CE0;
+    font-size: 24px;
+}
+.main3 ul li a img{
+    width: 290px;
+    height: 145px;
+}
+.main3 ul li p{
+    line-height: 20px;
+    font-family: "新宋体";
+    color: #555;
+    margin: 20px 0;
+    height: 40px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.gd{
+    color: #009ce0;
+    padding-right: 15px;
+    background: url(../img/index4img/gd.gif) no-repeat right center;
+    font-size: 12px;
+}
+

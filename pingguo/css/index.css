@@ -1,0 +1,810 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-11 10:20:55
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-14 17:30:23
+*/
+@import url('base.css');
+
+.top{
+	width: 100%;
+	height: 40px;
+	background: #444;
+	
+}
+.nav-top{
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 12px;
+	color: #fff;
+    display: flex;
+	justify-content: flex-end;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+}
+nav ul{
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+    font-size: 12px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.main li{
+	width: 100%;
+	margin-bottom: 12px;
+	position: relative;
+	overflow: hidden;
+}
+.main li a{
+	width: 100%;
+	height: 100%;
+	
+}
+.main li a h1{
+    color: #000;
+    text-align: center;
+    margin-top: 42px;
+}
+.main li a h3{
+	color: #000;
+	text-align: center;
+
+}
+.main li a div{
+	position: absolute;
+}
+
+.main2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.main2::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.main2 li{
+    border-left: 12px solid #fff;
+    border-right: 12px solid #fff;
+    border-bottom: 12px solid #fff;
+    box-sizing: border-box;
+    background: #fafafa;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.main2 li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+.main2 li a h1{
+	color: #000;
+    text-align: center;
+    margin-top: 42px;
+}
+.main2 li a p{
+	color: #000;
+    text-align: center;
+}
+.main li a div{
+	position: absolute;
+}
+
+.ft1{
+	width: 100%;
+	height: 412px;
+	background: #f2f2f2;
+}
+.ft1::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.foot section{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.foot1{
+	width: 100%;
+	height: 92px;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+.foot1 p{
+	font-size: 12px;
+	color: #888;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	
+}
+.foot1 p:first-child{
+	border-bottom: 1px solid #d6d6d6;
+	
+}
+.foot1 p:first-child a{
+	font-size: 12px;
+	color: #0070c9;
+}
+.foot1 p:nth-child(2) a{
+	color: #333;
+	padding-right: 10px;
+	border-right: 1px solid #666;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.foot1 p a:hover{
+	text-decoration: underline;
+}
+.foot1 p:nth-child(2) a:last-child{
+	border: none;
+}
+
+.foot2{
+	width: 100%;
+	height: 140px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	background: #f2f2f2;
+}
+.foot2 p{
+	font-size: 12px;
+	color: #888;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	
+}
+.foot2 p:first-child{
+	border-bottom: 1px solid #d6d6d6;
+	
+}
+.foot2 p:first-child a{
+	font-size: 12px;
+	color: #0070c9;
+}
+.foot2 p:nth-child(2) a{
+	color: #333;
+	padding-right: 10px;
+	border-right: 1px solid #666;
+	font-size: 12px;
+	margin-left: 10px;
+	
+}
+.foot2 p a:hover{
+	text-decoration: underline;
+}
+.foot2 p:nth-child(2) a:last-child{
+	border: none;
+}
+.foot section ul{
+	width: 20%;
+	height: auto;
+	margin-top: 40px;
+	float: left;
+}
+.foot section ul li h3{
+	font-size: 11px;
+	color: #333;
+	margin-bottom: 6px;
+}
+.foot section ul li a{
+	font-size: 11px;
+	color: #555;
+	/* margin-bottom: 6px; */
+}
+.foot section ul li a:hover{
+	text-decoration: underline;
+}
+.fot{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 0 16px;
+	background: #f2f2f2;
+}
+.fot h3{
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #333;
+
+}
+.fot .cha{
+	content: '+';
+	color: #333;
+	font-size: 16px;
+	display: block;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+	.nav-top{
+		width: 976px;
+	}
+	.max_nav{
+		display: block;
+	}
+	.max_nav ul{
+		width: 976px;
+	}
+	.min_nav{
+		display: none;
+	}
+	.main li:first-of-type{
+		height: 580px;
+		background: #fafafa;
+	}
+	.main li:last-of-type{
+		height: 580px;
+		background: #F9F0EB;
+	}
+	.main li a h1{
+		font-size: 56px;
+	}
+	.main li a h3{
+		font-size: 27px;
+	}
+	.main li a .t1{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 100px;
+	width: 909px;
+	height: 194px;
+	background: url('../img/iphone_x_large.jpg') no-repeat center;
+	background-size: 909px 194px;	
+	}
+	.main li a .t2{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	width: 561px;
+	height: 395px;
+	background: url('../img/iphone_8_large.jpg') no-repeat center;
+	background-size: 561px 395px;	
+	}
+	.main2 li a h1{
+		font-size: 40px;
+	}
+	.main2 li a p{
+		font-size: 21px;
+	}
+	.main2 li{
+        height: 580px;
+        width: 50%;
+	}
+	.main2 li:nth-child(2n){
+	border-left: 0px;
+    }
+	.t3{
+   position: absolute;
+   width: 491px;
+   height: 344px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 20px;
+   background: url('../img/holiday_large.png') no-repeat center;
+   background-size: 491px 344px;
+   }
+   .t4{
+   position: absolute;
+   width: 1262px;
+   height: 380px;
+   left: -300px;
+   bottom: 0px;
+   background: url('../img/trade_up_large.jpg') no-repeat 0px -200px;
+   background-size: 1262px 580px;
+   }
+   .t5{
+   position: absolute;
+   width: 586px;
+   height: 274px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 100px;
+   background: url('../img/watch_series_3_large.jpg') no-repeat center;
+   background-size: 586px 274px;
+   }
+   .t6{
+   position: absolute;
+   width: 510px;
+   height: 146px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 150px;
+   background: url('../img/ipad_pro_large.jpg') no-repeat center;
+   background-size: 510px 146px;
+   }
+   .t7{
+   position: absolute;
+   width: 251px;
+   height: 420px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 0px;
+   background: url('../img/macbook_large.jpg') no-repeat center;
+   background-size: 251px 420px;
+   }
+   .t8{
+   position: absolute;
+   width: 385px;
+   height: 304px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 100px;
+   background: url('../img/airpods_large.jpg') no-repeat center;
+   background-size: 385px 304px;
+   }
+   
+   .foot{
+	max-width: 1024px;
+	height: 392px;
+	box-sizing: border-box;
+	padding: 0 22px; 
+	margin: 0 auto;
+   }
+   .foot section ul{
+	margin-top: 40px;
+   }
+   .ft1{
+   	display: block;
+   }
+   .ft2{
+   	display: none;
+   }
+   .foot1{
+   	display: block;
+   }
+   .foot2{
+   	display: none;
+   }
+   .foot1{
+   	display: block;
+   }
+   .foot2{
+   	display: none;
+   }
+   .foot1 span{
+   	float: right; 
+    transform: translateY(-5px);
+   }
+   .foot1 span i{
+   	font-size: 12px;
+
+   }
+   .foot1 span img{
+   	padding-right: 10px;
+   	transform: translateY(3px);
+   }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.nav-top{
+		padding: 0 16px;
+	}
+	.max_nav{
+		display: block;
+	}
+	.max_nav ul{
+		padding: 0 16px;
+	}
+	.min_nav{
+		display: none;
+	}
+	.main li:first-of-type{
+		height: 580px;
+		background: #fafafa;
+	}
+	.main li:last-of-type{
+		height: 580px;
+		background: #F9F0EB;
+	}
+
+	.main li a h1{
+		font-size: 44px;
+	}
+	.main li a h3{
+		font-size: 24px;
+	}
+	.main li a .t1{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 150px;
+	width: 704px;
+	height: 148px;
+	background: url('../img/iphone_x_medium.jpg') no-repeat center;
+	background-size: 704px 148px;	
+	}
+	.main li a .t2{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	width: 549px;
+	height: 388px;
+	background: url('../img/iphone_8_medium.jpg') no-repeat center;
+	background-size: 549px 388px;	
+	}
+	.main2 li a h1{
+		font-size: 32px;
+	}
+	.main2 li a p{
+		font-size: 19px;
+	}
+	.main2 li{
+        height: 490px;
+        width: 50%;
+	}
+	.main2 li:nth-child(2n+1){
+	border-left: 0px;
+    }
+	.t3{
+   position: absolute;
+   width: 336px;
+   height: 236px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 20px;
+   background: url('../img/holiday_medium.png') no-repeat center;
+   background-size: 336px 236px;
+   }
+   .t4{
+   position: absolute;
+   width: 516px;
+   height: 290px;
+   left: 0px;
+   bottom: 0px;
+   background: url('../img/trade_up_medium.jpg') no-repeat -50px -180px;
+   background-size: 516px 490px;
+   }
+   .t5{
+   position: absolute;
+   width: 288px;
+   height: 322px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 20px;
+   background: url('../img/watch_series_3_medium.jpg') no-repeat center;
+   background-size: 288px 322px;
+   }
+   .t6{
+   position: absolute;
+   width: 318px;
+   height: 91px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 150px;
+   background: url('../img/ipad_pro_medium.jpg') no-repeat center;
+   background-size: 318px 91px;
+   }
+   .t7{
+   position: absolute;
+   width: 199px;
+   height: 348px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 0px;
+   background: url('../img/macbook_medium.jpg') no-repeat center;
+   background-size: 199px 348px;
+   }
+   .t8{
+   position: absolute;
+   width: 269px;
+   height: 212px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 100px;
+   background: url('../img/airpods_medium.jpg') no-repeat center;
+   background-size: 269px 212px;
+   }
+
+   .foot{
+	padding: 0 22px;
+	height: 373px;
+	box-sizing: border-box; 
+	margin: 0 auto;
+    }
+    .foot section ul{
+	margin-top: 20px;
+   }
+   .ft1{
+   	display: block;
+   }
+   .ft2{
+   	display: none;
+   }
+   .foot1{
+   	display: block;
+   }
+   .foot2{
+   	display: none;
+   }
+   .foot1 span{
+   	float: right; 
+    transform: translateY(-5px);
+   }
+   .foot1 span i{
+   	font-size: 12px;
+
+   }
+   .foot1 span img{
+   	padding-right: 10px;
+   	transform: translateY(3px);
+   }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+	.nav-top{
+		padding: 0 16px;
+	}
+	.max_nav{
+		display: none;
+		
+	}
+	.min_nav{
+		display: block;
+		
+	}
+	.min_nav ul{
+		padding: 0 16px;
+	}
+	.main li:first-of-type{
+		height: 500px;
+		background: #fafafa;
+	}
+	.main li:last-of-type{
+		height: 500px;
+		background: #F9F0EB;
+	}
+	.main li a h1{
+		font-size: 32px;
+	}
+	.main li a h3{
+		font-size: 19px;
+	}
+	.main li a .t1{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 20px;
+	width: 167px;
+	height: 333px;
+	background: url('../img/iphone_x_small.jpg') no-repeat center;
+	background-size: 167px 333px;	
+	}
+	.main li a .t2{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	width: 267px;
+	height: 357px;
+	background: url('../img/iphone_8_small.jpg') no-repeat center;
+	background-size: 267px 357px;	
+	}
+	.main2 li a h1{
+		font-size: 32px;
+	}
+	.main2 li a p{
+		font-size: 19px;
+	}
+	.main2 li{
+        height: 500px;
+        width: 100%;
+	}
+	.t3{
+   position: absolute;
+   width: 314px;
+   height: 219px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 20px;
+   background: url('../img/holiday_small.png') no-repeat center;
+   background-size: 314px 219px;
+   }
+   .t4{
+   position: absolute;
+   width: 736px;
+   height: 300px;
+   left: 0px;
+   bottom: 0px;
+   background: url('../img/trade_up_small.jpg') no-repeat -190px -180px;
+   background-size: 736px 500px;
+   }
+   .t5{
+   position: absolute;
+   width: 291px;
+   height: 326px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 20px;
+   background: url('../img/watch_series_3_small.jpg') no-repeat center;
+   background-size: 291px 326px;
+   }
+   .t6{
+   position: absolute;
+   width: 299px;
+   height: 86px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 150px;
+   background: url('../img/ipad_pro_small.jpg') no-repeat center;
+   background-size: 299px 86px;
+   }
+   .t7{
+   position: absolute;
+   width: 206px;
+   height: 364px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 0px;
+   background: url('../img/macbook_small.jpg') no-repeat center;
+   background-size: 206px 364px;
+   }
+   .t8{
+   position: absolute;
+   width: 244px;
+   height: 193px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 100px;
+   background: url('../img/airpods_small.jpg') no-repeat center;
+   background-size: 244px 193px;
+   }
+   .ft2{
+   	display: block;
+   }
+   .ft1{
+   	display: none;
+   }
+   .foot2{
+   	display: block;
+   	box-sizing: border-box;
+   	padding-left: 16px;
+   }
+   .foot1{
+   	display: none;
+   }
+   .foot2 span{
+   	float: left; 
+    /* transform: translateY(-5px); */
+    display: block;
+   }
+   .foot2 span i{
+   	font-size: 10px;
+
+   }
+   .foot2 span img{
+   	padding-right: 10px;
+   	transform: translateY(4px);
+   }
+   .foot2 p:last-of-type{
+   	display: block;
+   }
+	.fot h3{
+		display: block;
+		height: auto;
+		box-sizing: border-box;
+		position: relative;
+		width: 100%;
+	}
+	.fot .cha{
+		position: absolute;
+		top: 8px;
+		cursor: pointer;
+		right: 10px;
+		transition: all 1s;
+	}
+	.txt{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.txt>a{
+		display: block;
+		text-align: left;
+		box-sizing: border-box;
+		padding-left: 15px;
+		font-size: 12px;
+		color: #333;
+		line-height: 30px;
+		font-weight: normal;
+	}
+	.txt>a:hover{
+		text-decoration: underline;
+	}
+}
+
+
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 506398 */
+  src: url('https://at.alicdn.com/t/font_506398_ntpbjhpwtnj98uxr.eot');
+  src: url('https://at.alicdn.com/t/font_506398_ntpbjhpwtnj98uxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_506398_ntpbjhpwtnj98uxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_506398_ntpbjhpwtnj98uxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_506398_ntpbjhpwtnj98uxr.svg#iconfont') format('svg');
+}
+
+
+.iconfont{
+	font-family: 'iconfont';
+}
