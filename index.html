@@ -26,29 +26,50 @@
             background: rgba(255,255,255,0.5);
         }
         .bx{
+            overflow: hidden;
             width: 120px;
             height: 120px;
             border-radius: 50%;
             float: left;
             margin-left: 50px;
-            background: rgba(0,0,0,0.5);
+            /*background: rgba(0,0,0,0.5);*/
             margin-bottom: 20px;
             text-align: center;
             line-height: 120px;
         }
+        .bx:nth-child(1){
+            background: url("img/z1.jpg") no-repeat center center;
+        }
+        .bx:nth-child(2){
+            background: url("img/z2.jpg") no-repeat center center;
+        }
+        .bx:nth-child(3){
+            background: url("img/z3.jpg") no-repeat center center;
+        }.bx:nth-child(4){
+             background: url("img/z4.jpg") no-repeat center center;
+         }
+        .bx:nth-child(5){
+            background: url("img/z5.jpg") no-repeat center center;
+        }
+        .bx:nth-child(6){
+            background: url("img/z6.jpg") no-repeat center center;
+        }
+
         .bx a{
             font-weight: bold;
             color: #fff;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 0;
             display: block;width: 100%;
             height: 100%;
         }
         .bx:hover{
             transition:all 1s;
+            background: rgba(0,0,0,0.5);
             transform: scale(1.1,1.1);
         }
         .bx:hover a{
+            font-size: 20px;
             text-decoration: underline;
         }
     </style>
