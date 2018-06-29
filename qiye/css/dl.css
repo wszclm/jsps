@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+.head{
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+}
+.hl{
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+.hr{
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+.hr a{
+    width: 200px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    color: #5079d9;
+}
+a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+.hl a{
+    display: block;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.hl a img{
+    margin-top: 20px;
+}
+.hl b{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.hl b:before{
+    padding: 0 10px;
+    color: #ddd;
+    font-size: 22px;
+    content: "|\00a0";
+}
+.main{
+    width: 100%;
+    height: 323px;
+    padding: 50px 0;
+    background: url("../img/dlbg.jpg") no-repeat center center;
+    background-size: cover;
+}
+.ma{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+form{
+    width: 400px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding: 30px;
+}
+.name,.pass,.tj{
+    width: auto;
+    height: auto;
+}
+input:focus{
+    outline: none;
+}
+.name>input{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.pass>input{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    line-height: 45px;
+}
+.tj>input{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    background: #337AB7;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+.tj>input:hover{
+    background: #286090;
+}
+.wang{
+    display: block;
+    float: right;
+    line-height: 40px;
+    color: blue;
+    font-size: 14px;
+}
+.zhuCe{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #5BC0DE;
+    font-size: 18px;
+}
+.zhuCe:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #0DC6F5;
+}
+footer{
+    height: 85px;
+    width: 100%;
+    text-align: center;
+    line-height: 85px;
+    color: #777777;
+    font-size: 14px;
+}
